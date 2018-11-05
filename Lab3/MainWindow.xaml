@@ -96,7 +96,7 @@
                     <local:PropertyBox DockPanel.Dock="Top" PropertyBind="{Binding WorkPhone, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Label="Рабочий телефон"/>
                     <local:PropertyBox DockPanel.Dock="Top" PropertyBind="{Binding HomePhone, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Label="Домашний телефон"/>
                     <local:PropertyBox DockPanel.Dock="Top" PropertyBind="{Binding Email, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Label="Email"/>
-                    <local:PropertyBox DockPanel.Dock="Top" PropertyBind="{Binding Skype}" Label="Skype"/>
+                    <local:PropertyBox DockPanel.Dock="Top" PropertyBind="{Binding Skype, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" Label="Skype"/>
                     <Grid Margin="5" DockPanel.Dock="Top">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="1*" MinWidth="130"/>
